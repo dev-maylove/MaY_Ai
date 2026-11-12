@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Cleartext diizinkan untuk development lokal (llama-server).
+     Jangan gunakan HTTP tanpa TLS untuk server yang terekspos publik. -->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>

@@ -1,13 +1,8 @@
-# AI model
-/models/*.gguf
-
-# Local inference engine
-/llama.cpp/
 
 # Android build
 .gradle/
-/build/
-/app/build/
+**/build/
+**/.gradle/
 local.properties
 *.apk
 *.aab
@@ -15,4 +10,97 @@ local.properties
 # IDE
 .idea/
 *.iml
+.vscode/
+
+# OS files
 .DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Signing keys and secrets
+*.jks
+*.keystore
+secrets.properties
+.env
+.env.*
+
+# Native build
+**/CMakeFiles/
+**/CMakeCache.txt
+**/cmake-build-*/
+**/.cxx/
+*.o
+*.so
+*.a
+
+# Python cache
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Model files (large AI models)
+models/*.gguf
+models/*.bin
+models/*.safetensors
+models/*.pt
+models/*.pth
+
+# llama.cpp generated files
+llama.cpp/build/
+llama.cpp/.cache/
+
+# Temporary files
+.cache/
+temp/
+tmp/
+
+
+# Main AI model
+/models/*.gguf
+
+# llama.cpp build output
+/llama.cpp/build/
+
+# Nested Git repository
+/llama.cpp/.git/
+
+# llama.cpp vocabulary models
+/llama.cpp/models/*.gguf
+
+# Compiled binaries
+*.o
+*.a
+*.so
+*.dll
+*.exe
+
+# Main AI model
+/models/*.gguf
+
+# llama.cpp build output
+/llama.cpp/build/
+
+# Nested Git repository
+/llama.cpp/.git/
+
+# llama.cpp vocabulary models
+/llama.cpp/models/*.gguf
+
+# Compiled binaries
+*.o
+*.a
+*.so
+*.dll
+*.exe
+
+# llama.cpp vocabulary files
+/llama.cpp/models/*.gguf
+
+# Duplicate nested Android project
+/MaY_Ai/
